@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+    color: #f0f0f0;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    margin: 0;
+    padding-top: 40px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#app {
+    background: #1e1e1e;
+    padding: 25px 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgb(0, 0, 0);
+    text-align: center;
+    width: 320px;
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    background: #292929;
+    color: #fff;
+    font-size: medium;
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+button {
+    width: 95%;
+    padding: 12px;
+    background: #4cafef;
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #35a4ff;
+    transform: scale(1.05);
+}
+
+#result {
+    margin-top: 20px;
+    font-size:medium;
+    font-weight: bold;
+    color: #4cafef;
+}
+#gifperrobailarin {
+    width: 69%;
+}
